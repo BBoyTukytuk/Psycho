@@ -31,12 +31,14 @@ body {
 
 
 .correct {
-    background: linear-gradient(32deg, rgb(105, 248, 105) 0%, rgb(74, 165, 109) 100%);
-}
+    box-shadow: 0 0.4rem 1.4rem 0 #ffffff ;
+    transition: transform 150ms;
+    transform: scale(1.03);}}
 
 *.incorrect {
-    background: linear-gradient(32deg, rgb(160, 160, 160) 0%, rgb(136, 136, 136) 100%);
-}
+    box-shadow: 0 0.4rem 1.4rem 0 #ffffff ;
+    transition: transform 150ms;
+    transform: scale(1.03);}}
 
 /* Heads up Display */
 #hud {
