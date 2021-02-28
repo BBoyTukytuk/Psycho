@@ -34,12 +34,16 @@ body {
     box-shadow: 0 0.4rem 1.4rem 0 #ffffff ;
     transition: transform 50ms;
     transform: scale(1.03);
+    background: linear-gradient(32deg, rgb(160, 160, 160) ,#ffffff);
+
     
 
 *.incorrect {
     box-shadow: 0 0.4rem 1.4rem 0 #ffffff ;
     transition: transform 50ms;
     transform: scale(1.03);
+    background: linear-gradient(32deg, rgb(160, 160, 160) ,#ffffff);
+
 
 /* Heads up Display */
 #hud {
