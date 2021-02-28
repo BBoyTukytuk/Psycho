@@ -32,12 +32,12 @@ body {
 
 .correct {
     box-shadow: 0 0.4rem 1.4rem 0 #ffffff ;
-    transition: transform 150ms;
+    transition: transform 50ms;
     transform: scale(1.03);}}
 
 *.incorrect {
     box-shadow: 0 0.4rem 1.4rem 0 #ffffff ;
-    transition: transform 150ms;
+    transition: transform 50ms;
     transform: scale(1.03);}}
 
 /* Heads up Display */
