@@ -1,0 +1,85 @@
+body {
+    color: rgb(6, 141, 96);
+    height: 100%;
+    display: flex;
+  }
+  
+  .choice-container {
+      display: flex;
+      margin-bottom: 0.8rem;
+      width: 100%;
+      font-size: 4rem;
+      min-width: 80rem;
+  }
+  
+  .choice-container:hover {
+      cursor: pointer;
+      /*transform: scale(1.02);
+      transform: transform 100ms;*/
+  }
+  
+  .choice-prefix {
+      padding: 2rem 2.5rem;
+      color: white;
+  }
+  
+  .choice-text {
+      padding: 2rem;
+      width: 100%;
+      color: white;
+      font-size: 3rem;
+  
+  }
+  
+  
+  .correct {        
+      cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 #9bff9b ;
+    transition: transform;
+    transform: scale(1.03);
+    }  
+  
+  .incorrect {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 #ffffff ;
+    transition: transform;
+    transform: scale(1.03);
+}
+  
+  /* Heads up Display */
+  #hud {
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  .hud-prefix {
+      text-align: center;
+      font-size: 3rem;
+      color: white;
+  }
+  
+  .hud-main-text {
+      text-align: center;
+  }
+  
+  #progressBar {
+      width: 20rem;
+      height: 3rem;
+      border: solid rgb(65, 65, 65);
+      margin-top: 4rem;
+      border-radius: 0px;
+      overflow: hidden;
+  }
+  
+  #progressBarFull {
+      height: 100%;
+      background:rgb(154, 255, 167);
+      width: 0%;
+  }
+  
+  @media screen and (max-width: 768px) {
+      .choice-container {
+          min-width: 40rem;
+      }
+  }
+  
