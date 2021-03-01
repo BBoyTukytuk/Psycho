@@ -8,8 +8,8 @@ body {
       display: flex;
       margin-bottom: 0.8rem;
       width: 100%;
-      font-size: 4rem;
-      min-width: 80rem;
+      font-size: 3rem;
+      min-width: 40rem;
   }
   
   .choice-container:hover {
@@ -50,6 +50,8 @@ body {
   #hud {
       display: flex;
       justify-content: space-between;
+      padding: 2rem 2.5rem;
+
   }
   
   .hud-prefix {
